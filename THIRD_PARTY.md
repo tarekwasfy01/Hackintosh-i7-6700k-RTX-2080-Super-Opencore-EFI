@@ -1,14 +1,14 @@
-# Drittanbieter-Komponenten
+# Third-party components
 
-Die Binärdateien stammen aus einem bestehenden EFI-Snapshot. Die Versionsangaben sind den enthaltenen Info.plists entnommen; sie sind keine Zusicherung, dass jede Datei aus einem unveränderten Upstream-Release stammt. Prüfsummen dieses Snapshots stehen in SHA256SUMS.
+The binaries come from an existing EFI snapshot. Version numbers were read from the included Info.plist files; they do not guarantee that every file is an unmodified upstream release. Checksums for this snapshot are listed in SHA256SUMS.
 
-| Dateien | Upstream / Quellcode |
+| Files | Upstream / source code |
 |---|---|
 | OpenCore, BOOTx64, OpenRuntime, OpenHfsPlus, OpenShell, MmapDump | https://github.com/acidanthera/OpenCorePkg |
 | Lilu | https://github.com/acidanthera/Lilu |
 | VirtualSMC, SMCProcessor, SMCSuperIO | https://github.com/acidanthera/VirtualSMC |
-| WhateverGreen (deaktiviert) | https://github.com/acidanthera/WhateverGreen |
-| AppleALC (deaktiviert) | https://github.com/acidanthera/AppleALC |
+| WhateverGreen (disabled) | https://github.com/acidanthera/WhateverGreen |
+| AppleALC (disabled) | https://github.com/acidanthera/AppleALC |
 | IntelMausi | https://github.com/acidanthera/IntelMausi |
 | NVMeFix | https://github.com/acidanthera/NVMeFix |
 | RestrictEvents | https://github.com/acidanthera/RestrictEvents |
@@ -17,9 +17,9 @@ Die Binärdateien stammen aus einem bestehenden EFI-Snapshot. Die Versionsangabe
 | IntelBluetoothFirmware, IntelBTPatcher | https://github.com/OpenIntelWireless/IntelBluetoothFirmware |
 | itlwm | https://github.com/OpenIntelWireless/itlwm |
 | AMFIPass | https://github.com/dortania/OpenCore-Legacy-Patcher |
-| SimpleHDA (deaktiviert) | Bundle-ID `cn.laobamac.SimpleHDA`; genaue Herkunft dieses bereits vorhandenen Builds nicht verifiziert |
-| SSDT-PLUG-DRTNIA, SSDT-EC-USBX-DESKTOP | Dortania-Vorlagen / lokale Konfiguration; nicht als eigene allgemeingültige ACPI-Implementierung ausgegeben |
+| SimpleHDA (disabled) | Bundle ID `cn.laobamac.SimpleHDA`; the exact origin of this existing build has not been verified |
+| SSDT-PLUG-DRTNIA, SSDT-EC-USBX-DESKTOP | Dortania templates / local configuration; not presented as an original, universally applicable ACPI implementation |
 
-Die Upstream-Lizenztexte liegen, soweit zugeordnet, unter `LICENSES/`. Die bestehenden Copyright-Vermerke in den Bundles bleiben erhalten. Die MIT-Lizenz im Repository-Root überschreibt weder GPL/BSD-Lizenzen noch Firmware- oder sonstige Drittanbieterbedingungen. Upstream-Quellcode und Release-Historie sind über die Links erreichbar.
+Where identified, upstream license texts are included under `LICENSES/`. Existing copyright notices inside the bundles are preserved. The MIT license at the repository root does not override GPL/BSD licenses, firmware terms or other third-party conditions. Upstream source code and release history are accessible through the links above.
 
-NullMoth-Treiber, Apple-Systemdateien und Installationspakete sind **nicht enthalten**. Für NullMoth gelten die Bedingungen des Herstellers: https://github.com/nullmoth/nvidia-macos-driver .
+NullMoth drivers, Apple system files and installation packages are **not included**. NullMoth is subject to its upstream terms: https://github.com/nullmoth/nvidia-macos-driver .
