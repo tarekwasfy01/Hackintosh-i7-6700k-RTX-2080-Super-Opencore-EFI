@@ -1,0 +1,87 @@
+[
+  {
+    "name": "Lilu.kext",
+    "version": "1.7.3",
+    "enabled": true
+  },
+  {
+    "name": "AMFIPass.kext",
+    "version": "1.4.1",
+    "enabled": true
+  },
+  {
+    "name": "VirtualSMC.kext",
+    "version": "1.3.9",
+    "enabled": true
+  },
+  {
+    "name": "SMCProcessor.kext",
+    "version": "1.3.9",
+    "enabled": true
+  },
+  {
+    "name": "SMCSuperIO.kext",
+    "version": "1.3.9",
+    "enabled": true
+  },
+  {
+    "name": "IntelMausi.kext",
+    "version": "1.0.8",
+    "enabled": true
+  },
+  {
+    "name": "USBToolBox.kext",
+    "version": "1.2.0",
+    "enabled": true
+  },
+  {
+    "name": "UTBDefault.kext",
+    "version": "1.0",
+    "enabled": true
+  },
+  {
+    "name": "WhateverGreen.kext",
+    "version": "1.7.2",
+    "enabled": false
+  },
+  {
+    "name": "NVMeFix.kext",
+    "version": "1.1.4",
+    "enabled": true
+  },
+  {
+    "name": "RestrictEvents.kext",
+    "version": "1.1.7",
+    "enabled": true
+  },
+  {
+    "name": "BlueToolFixup.kext",
+    "version": "2.7.3",
+    "enabled": true
+  },
+  {
+    "name": "IntelBluetoothFirmware.kext",
+    "version": "2.5.0",
+    "enabled": true
+  },
+  {
+    "name": "IntelBTPatcher.kext",
+    "version": "2.5.0",
+    "enabled": true
+  },
+  {
+    "name": "itlwm.kext",
+    "version": "2.3.0",
+    "enabled": true
+  },
+  {
+    "name": "AppleALC.kext",
+    "version": "1.9.9",
+    "enabled": false
+  },
+  {
+    "name": "SimpleHDA.kext",
+    "version": "1.0.0",
+    "enabled": false
+  }
+]

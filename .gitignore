@@ -1,0 +1,17 @@
+# Private captures and diagnostic artifacts must stay outside the repository.
+opencore-*.txt
+panic-*.txt
+SysReport/
+nvram.plist
+*.log
+*.zip
+*.dmg
+*.pkg
+*.iso
+*.raw
+*.vdi
+*.vmdk
+.DS_Store
+__pycache__/
+private/
+backups/

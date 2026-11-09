@@ -1,0 +1,20 @@
+{
+  "source": "Fresh OC_EFI snapshot, 2026-11-09",
+  "efi_files": 45,
+  "changed_files": [
+    "OC/config.plist",
+    "OC/Kexts/itlwm.kext/Contents/Info.plist"
+  ],
+  "cleared_fields": [
+    "PlatformInfo/Generic/SystemSerialNumber",
+    "PlatformInfo/Generic/MLB",
+    "PlatformInfo/Generic/SystemUUID",
+    "PlatformInfo/Generic/ROM",
+    "itlwm/IOKitPersonalities/itlwm/WiFiConfig"
+  ],
+  "private_identity_scan": "passed: original values absent in raw, text and common encoded forms",
+  "plist_parse": "passed",
+  "hardware_boot_test_of_sanitized_copy": false,
+  "original_disk_modified": false,
+  "ocvalidate_1_0_8": "passed"
+}
