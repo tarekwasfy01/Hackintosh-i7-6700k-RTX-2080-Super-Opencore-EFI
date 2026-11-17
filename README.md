@@ -70,11 +70,17 @@ The AMFI arguments `amfi_get_out_of_my_way=0x1 amfi=0x80 ipc_control_port_option
 
 ### Login workaround
 
+There are two workarounds for the initially unresponsive login window:
+
+**Automatic login:** In macOS, open **System Settings → Users & Groups → Automatically log in as**, select the account, and authenticate. On the next startup, macOS should go directly to that account’s desktop and skip the interactive login window. This bypasses the symptom; it does not identify or repair its cause. Automatic login is unavailable while FileVault is enabled, and it means anyone with physical access can reach the automatically logged-in account after restarting the computer. It may still ask for a password after locking the screen, logging out, or switching users. See [Apple’s automatic-login instructions](https://support.apple.com/en-us/102316).
+
+**Manual login:**
+
 1. Boot macOS using this EFI after supplying suitable personal identifiers and hardware settings.
 2. If the login screen initially ignores input, wait for the display to time out once.
 3. Wake the display and log in.
 
-The owner reports that login works normally afterward. Whether this procedure helps on other hardware has not been tested. Earlier attempts on an older driver setup produced a black screen with a movable pointer; that symptom predates this current working configuration. The owner now reports Metal acceleration working with the RTX setup.
+The owner reports that manual login works normally after the timeout. Whether either procedure helps on other hardware has not been tested. Earlier attempts on an older driver setup produced a black screen with a movable pointer; that symptom predates this current working configuration. The owner now reports Metal acceleration working with the RTX setup.
 
 ### Resolution
 
