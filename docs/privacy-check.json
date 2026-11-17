@@ -1,20 +1,23 @@
 {
-  "source": "Fresh OC_EFI snapshot, 2026-11-09",
-  "efi_files": 45,
+  "source": "Read-back of active OC_RTX_TEST, 2026-11-17",
+  "efi_files": 47,
   "changed_files": [
-    "OC/config.plist",
-    "OC/Kexts/itlwm.kext/Contents/Info.plist"
+    "OC/config.plist (SMBIOS fields redacted)",
+    "OC/Kexts/ForbiddenItlwm.kext (added)",
+    "OC/Kexts/BTLEAdvFixup.kext (added)",
+    "OC/Kexts/itlwm.kext (removed)"
   ],
   "cleared_fields": [
     "PlatformInfo/Generic/SystemSerialNumber",
     "PlatformInfo/Generic/MLB",
     "PlatformInfo/Generic/SystemUUID",
-    "PlatformInfo/Generic/ROM",
-    "itlwm/IOKitPersonalities/itlwm/WiFiConfig"
+    "PlatformInfo/Generic/ROM (six zero bytes)"
   ],
-  "private_identity_scan": "passed: original values absent in raw, text and common encoded forms",
+  "wifi_credentials": "no credentials or saved network profile found in the published EFI",
+  "private_identity_scan": "passed: public config contains blank/zero SMBIOS fields",
   "plist_parse": "passed",
-  "hardware_boot_test_of_sanitized_copy": false,
-  "original_disk_modified": false,
-  "ocvalidate_1_0_8": "passed"
+  "ocvalidate_1_0_8": "passed before publication",
+  "reported_runtime": "owner reports AX210 Wi-Fi, RTX 2080 SUPER Metal acceleration and multi-display operation with private test EFI; AirDrop untested",
+  "public_sanitized_efi_boot_test": false,
+  "original_disk_modified_by_publication": false
 }

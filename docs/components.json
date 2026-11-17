@@ -55,24 +55,9 @@
     "enabled": true
   },
   {
-    "name": "BlueToolFixup.kext",
-    "version": "2.7.3",
-    "enabled": true
-  },
-  {
-    "name": "IntelBluetoothFirmware.kext",
-    "version": "2.5.0",
-    "enabled": true
-  },
-  {
     "name": "IntelBTPatcher.kext",
     "version": "2.5.0",
-    "enabled": true
-  },
-  {
-    "name": "itlwm.kext",
-    "version": "2.3.0",
-    "enabled": true
+    "enabled": false
   },
   {
     "name": "AppleALC.kext",
@@ -83,5 +68,25 @@
     "name": "SimpleHDA.kext",
     "version": "1.0.0",
     "enabled": false
+  },
+  {
+    "name": "IntelBluetoothFirmware.kext",
+    "version": "2.5.0",
+    "enabled": true
+  },
+  {
+    "name": "BlueToolFixup.kext",
+    "version": "2.7.3",
+    "enabled": true
+  },
+  {
+    "name": "BTLEAdvFixup.kext",
+    "version": "0.9.2",
+    "enabled": true
+  },
+  {
+    "name": "ForbiddenItlwm.kext",
+    "version": "0.6.0",
+    "enabled": true
   }
 ]
